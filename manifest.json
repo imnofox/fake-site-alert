@@ -4,8 +4,11 @@
   "manifest_version": 2,
   "description": "Alerts you if you are viewing a fake news site",
   "homepage_url": "http://nymag.com",
+  "author": "Brian Feldman",
   "browser_action": {
-    "default_icon": "icons/icon48.png"
+    "default_icon": {
+      "48": "icons/icon48.png"
+    }
   },
   "icons": { "128": "icons/icon128.png" },
   "default_locale": "en",
@@ -37,7 +40,7 @@
             "*://*.addictinginfo.org//*",
             "*://*.americannewsx.com//*",
             "*://*.samericannews.com/*",
-            "*://*.anonnews.co/*",
+            "*://*.anonews.co/*",
             "*://*.associatedmediacoverage.com/*",
             "*://*.beforeitsnews.com/*",
             "*://*.beingliberal.org/*",
